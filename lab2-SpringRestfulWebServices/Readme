@@ -1,0 +1,19 @@
+To get start page:
+==================
+
+http://localhost:8080/lab2-SpringRestfulWebServices/ 
+
+
+As we have used DispatcherServlet in web.xml, this request goes to spring DispatcherServlet and it did not find corresponding mapping 
+in controller , hence you get that warning.
+
+
+Test your REST service under:
+=============================
+
+URL :  http://localhost:8080/lab2-SpringRestfulWebServices/countries
+
+Accept: application/xml
+Content-Type: application/xml
+
+Note : Also, try with json
